@@ -1,0 +1,125 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+html, 
+body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	font-family:Roboto;
+}
+
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+#header{
+	height: 100px;
+	background: black;
+	text-align: center;
+	font-size: 70px;
+}
+
+#bold{
+		
+}
+
+#content{
+	padding-bottom: 0px;
+	width:1000px;
+	margin: auto;
+	height:100%;
+}
+
+@-webkit-keyframes changeColor {
+	0%{color:red;
+	font-weight: 800;}
+	50%{color:yellow;}
+	100%{color:#6D0;}
+}
+
+@-webkit-keyframes changeColor2 {
+	0%{color:yellow;}
+	50%{color:#6D0;}
+	100%{color:red;
+	font-weight: 800;}
+}
+
+@-webkit-keyframes changeColor3 {
+	0%{color:#6D0;}
+	50%{color:red;
+	font-weight: 800;}
+	100%{color:yellow;}
+}
+
+.logo{
+	color:red;
+		-webkit-animation: changeColor 3s alternate infinite; /* Safari 4+ */
+                    -moz-animation: changeColor 5s infinite; /* Fx 5+ */
+                    -o-animation: changeColor 5s infinite; /* Opera 12+ */
+                    animation: changeColor 5s infinite; /* IE 10+ */
+}
+
+.logo2{
+	color:yellow;
+		-webkit-animation: changeColor 3s alternate infinite; /* Safari 4+ */
+                    -moz-animation: changeColor 5s infinite; /* Fx 5+ */
+                    -o-animation: changeColor 5s infinite; /* Opera 12+ */
+                    animation: changeColor 5s infinite; /* IE 10+ */
+                    -webkit-animation-delay: 1s;
+}
+
+.logo3{
+	color:#6D0;
+		-webkit-animation: changeColor 3s alternate infinite; /* Safari 4+ */
+                    -moz-animation: changeColor 5s infinite; /* Fx 5+ */
+                    -o-animation: changeColor 5s infinite; /* Opera 12+ */
+                    animation: changeColor 5s infinite; /* IE 10+ */
+                    -webkit-animation-delay: 2s;
+}
+
+#swagbar{
+	position: relative;
+	margin-top: 20px;
+	float:left;
+	height:500px;
+	width:150px;
+	border:5px solid black;
+	padding: 10px;
+}
+#swagbartop{
+	position:absolute;
+	top:10px;
+	font-size: 25px;
+}
+#swagbarbot{
+	position:absolute;
+	bottom:10px;
+	font-size: 25px;
+}
+
+#swagpic{
+	position: relative;
+	margin-top: 20px;
+	float:right;
+	height:500px;
+	width:150px;
+	border:5px solid black;
+	padding: 10px;
+}
