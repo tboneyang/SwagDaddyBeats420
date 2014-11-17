@@ -22,6 +22,7 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family:Roboto;
+	background: black;
 }
 
 #wrapper {
@@ -34,6 +35,26 @@ body {
 	background: black;
 	text-align: center;
 	font-size: 70px;
+}
+
+#weedleaf{
+	background-image:url("http://www.clipartbest.com/cliparts/Kcj/MLz/KcjMLz9cq.png");
+	background-size: cover;
+	height:70px;
+	width:70px;
+	float:left;
+	padding: 10px;
+	margin-left:10px;
+}
+
+#weedleaf2{
+	background-image:url("http://www.clipartbest.com/cliparts/Kcj/MLz/KcjMLz9cq.png");
+	background-size: cover;
+	height:70px;
+	width:70px;
+	float:right;
+	padding: 10px;
+	margin-right:10px;
 }
 
 #bold{
@@ -102,6 +123,7 @@ body {
 	width:150px;
 	border:5px solid black;
 	padding: 10px;
+	background: white;
 }
 #swagbartop{
 	position:absolute;
@@ -122,4 +144,37 @@ body {
 	width:150px;
 	border:5px solid black;
 	padding: 10px;
+	background: white;
+}
+
+#centerconsole{
+	margin-top: 20px;
+	float:left;
+	width:630px;
+	height:500px;
+	border:5px solid black;
+	background: white;
+}
+
+#songname{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#songauthor{
+	text-align: center;
+	font-size: 25px;
+}
+#consolebuttons{
+	margin: auto;
+	height:50px;
+	width:550px;
+	margin-top: 20px;
+	border:5px solid black;
+}
+#vidcontainer{
+	width:600px;
+	margin:auto;
+	height:300px;
+	border:5px solid black;
 }
